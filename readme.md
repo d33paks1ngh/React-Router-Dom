@@ -2,8 +2,8 @@
 
 # App Layout
  
-<!-- - Applayout
+- Applayout
   -header component 
     -About Us , Contact Us , Login Page.
     -Body component
-   - Footer component. -->
+   - Footer component.
