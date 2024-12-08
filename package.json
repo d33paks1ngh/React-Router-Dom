@@ -5,12 +5,11 @@
     "react-dom": "^19.0.0",
     "react-icon": "^1.0.0",
     "react-icons": "^5.4.0",
-    "react-router-dom": "^7.0.2"
+    "react-router": "^7.0.2"
   },
   "name": "react-router-dom",
   "version": "1.0.0",
   "description": "Deepak Singh",
-  "main": "App.js",
   "devDependencies": {
     "postcss": "^8.4.49",
     "process": "^0.11.10",
@@ -18,7 +17,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "author": "Deepak Singh",
   "license": "ISC"
