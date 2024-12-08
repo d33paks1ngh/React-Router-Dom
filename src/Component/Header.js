@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 const Header = () => {
   return (
     <div className="w-full sticky shadow top-0 mb-20 ">
@@ -8,17 +9,29 @@ const Header = () => {
         />
         <div>
           <ul className="flex  gap-6 font-medium text-orange-400 ">
-            <li className="hover:text-red-500 cursor-pointer">Home</li>
-            <li className="hover:text-red-500 cursor-pointer">About</li>
-            <li className="hover:text-red-500 cursor-pointer">Contact</li>
-            <li className="hover:text-red-500 cursor-pointer">User</li>
-            <li className="hover:text-red-500 cursor-pointer">GitHub</li>
+            <Link to="/">
+              <li className="hover:text-red-500 cursor-pointer">Home</li>
+            </Link>
+            <Link to="/About">
+              <li className="hover:text-red-500 cursor-pointer">About</li>
+            </Link>
+            <Link to="/Contact">
+              <li className="hover:text-red-500 cursor-pointer">Contact</li>
+            </Link>
+            <Link to="/">
+              <li className="hover:text-red-500 cursor-pointer">User</li>
+            </Link>
+            <Link to="/">
+              <li className="hover:text-red-500 cursor-pointer">GitHub</li>
+            </Link>
           </ul>
         </div>
         <div className=" flex gap-6 items-center ">
-          <button className="border-2 font-medium p-2 border-transparent hover:bg-slate-50 rounded-xl overflow-hidden">
-            Log in
-          </button>
+          <Link to="/Login">
+            <button className="border-2 font-medium p-2 border-transparent hover:bg-slate-50 rounded-xl overflow-hidden">
+              Log in
+            </button>
+          </Link>
           <button className="hover:bg-red-800 border-2 font-medium rounded-xl bg-red-700 text-white px-4 py-2">
             Get Started
           </button>

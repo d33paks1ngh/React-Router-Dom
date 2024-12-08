@@ -4,7 +4,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icon": "^1.0.0",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.0.2"
   },
   "name": "react-router-dom",
   "version": "1.0.0",
