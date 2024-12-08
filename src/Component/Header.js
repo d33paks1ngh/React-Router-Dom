@@ -18,10 +18,10 @@ const Header = () => {
             <Link to="/Contact">
               <li className="hover:text-red-500 cursor-pointer">Contact</li>
             </Link>
-            <Link to="/">
+            <Link to="/user">
               <li className="hover:text-red-500 cursor-pointer">User</li>
             </Link>
-            <Link to="/">
+            <Link to="https://github.com/d33paks1ngh">
               <li className="hover:text-red-500 cursor-pointer">GitHub</li>
             </Link>
           </ul>

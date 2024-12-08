@@ -9,6 +9,7 @@ import Contact from "./src/Component/Contact";
 import Login from "./src/Component/Login";
 import ErrorPage from "./src/Component/ErrorPage";
 import SignUp from "./src/Component/SignUp";
+import User from "./src/Component/User";
 
 const Applayout = () => {
   return (
@@ -29,6 +30,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/About",
         element: <About />,
+      },
+      {
+        path: "/user",
+        element: <User />,
       },
       {
         path: "/Signup",
